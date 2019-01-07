@@ -104,12 +104,13 @@ public class BasicsLesson {
      */
 
     public Object newClass() {
-        Object o = null;
-        String myColor = "red";
-        Double myPower = new Double(10);
-        int myR = 5;
-        LethalWeapon myObj = new LethalWeapon(myColor, myPower, myR);
-        o =myObj;
+//        Object o = null;
+//        String myColor = "red";
+//        Double myPower = new Double(10);
+//        int myR = 5;
+//        LethalWeapon o = new LethalWeapon(myColor, myPower, myR);
+ //       o =myObj;
+        LethalWeapon o = new LethalWeapon("red", new Double(10) , 5);
         return o;
 
     }
